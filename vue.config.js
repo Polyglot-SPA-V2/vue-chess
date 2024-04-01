@@ -6,6 +6,8 @@ module.exports = {
     configureWebpack: {
         output: {
             libraryTarget: 'system',
+            fileName: "polyglot-spa-v2-vue-chess.js",
+            chunkFilename: "polyglot-spa-v2-vue-chess.js"
         },
     },
   chainWebpack: config => {
